@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Divya Sitani",
+    "label": "Post Doctoral Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "jrpcsitani@gmail.com, sitani.divya@dzne.de",
+    #"phone": "(912) 123-4567",
+    "url": "https://divya1205.github.io/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -19,23 +19,23 @@
         "network": "Twitter",
         "username": "AlbertEinstein",
         "url": "https://twitter.com/AlbertEinstein"
-      }
+      }I am a researcher focused on applying machine learning to computational biomedicine, with an emphasis on multimodal data integration, cohort generalization, and immune response modeling. My work involves analyzing large-scale biological and clinical datasets using tabular machine learning approaches, with attention to model interpretability, metadata harmonization, and cross-cohort validation. I am also exploring privacy-preserving strategies to support decentralized, collaborative biomedical research.
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "German Center for Neurodegenrative Diseases, DZNE",
+      "position": "Post-Doctoral Researcher",
+      "url": "https://www.dzne.de/swarm-learning-hub/about-us-1/",
+      "startDate": "2024-05-15",
+      "endDate": "Ongoing",
+      "summary": "summary": "Leading the CoViM project and managing two additional collaborative projects focused on multi-modal immunological data integration and analysis.",
+      "highlights": ["Designed and deployed a metadata hub architecture for multi-site immunological data harmonization as part of the COVIM 2.0 project."]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
+  #"volunteer": [
+  #  {
+  #    "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
       "url": "https://example.com",
@@ -45,113 +45,292 @@
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
+
+  "volunteer": [
+  {
+    "organization": "ReDI School of Digital Integration",
+    "location": "Berlin, Germany",
+    "position": "Volunteer Teacher - Coding Fundamentals (Python)",
+    "url": "https://www.redi-school.org/berlin",
+    "startDate": "2024-02-01",
+    "endDate": "2024-05-31",
+    "summary": "Volunteering as a teacher for the Coding Fundamentals course (Python) for women at ReDI School during the Spring 2024 semester.",
+    "highlights": [
+      "Designed and taught weekly hands-on sessions on Python basics to a diverse, beginner-friendly cohort.",
+      "Mentored learners on foundational coding practices to boost confidence and job-readiness."
+      "Mentored a class of women from varied migrant backgrounds, fostering digital empowerment and career confidence."
+    ]
+  },
+  {
+    "organization": "ReDI School of Digital Integration",
+    "location": "North Rhine-Westphalia, Germany",
+    "position": "Volunteer Teacher - Machine Learning",
+    "url": "https://www.redi-school.org/nrw",
+    "startDate": "2024-09-01",
+    "endDate": "2024-12-31",
+    "summary": "Volunteering as a Machine Learning teacher for the ReDI NRW Digital Career Programme during Fall 2024.",
+    "highlights": [
+      "Planned and delivered practical lessons on core ML concepts and workflows for adult learners.",
+      "Supported career changers by bridging ML theory with real-world use cases in healthcare and beyond."
+      "Contributed to ReDI School’s mission of empowering underserved communities and refugees through inclusive digital education."
+    ]
+  }
+],
+
   "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
+  {
+    "institution": "Forschungszentrum Juelich and Department of Biology, RWTH Aachen",
+    "location": "Germany",
+    "url": "https://www.fz-juelich.de/",
+    "area": "Computational Biomedicine",
+    "studyType": "PhD",
+    "startDate": "2017-10-01",
+    "endDate": "2023-09-30",
+    "score": "",
+    "courses": []
+  },
+  {
+    "institution": "Indraprastha Institute of Information Technology",
+    "location": "Delhi, India",
+    "url": "https://www.iiitd.ac.in/",
+    "area": "Communications and Signal Processing",
+    "studyType": "M.Tech.",
+    "startDate": "2015-07-01",
+    "endDate": "2017-06-30",
+    "score": "",
+    "courses": []
+  },
+  {
+    "institution": "Kamla Nehru Institute of Technology",
+    "location": "Sultanpur, India",
+    "url": "http://knit.ac.in/",
+    "area": "Electronics Engineering",
+    "studyType": "B.Tech.",
+    "startDate": "2011-07-01",
+    "endDate": "2015-06-30",
+    "score": "",
+    "courses": []
+  }
+],
   "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  {
+    "title": "Image Analysis Hackathon Winner – CytoData 2023",
+    "date": "2023-10-01",
+    "awarder": "University of Helsinki",
+    "url": "https://www.helsinki.fi/en/conferences/cytodata-symposium-and-hackathon-2023", 
+    "summary": "Winner of the Image Analysis Hackathon organized as part of the CytoData 2023 symposium."
+  },
+  {
+    "title": "Honorable Mention – CSBC/PS-ON Image Analysis Hackathon",
+    "date": "2022-11-01",
+    "awarder": "Center for Strategic Biomedical Computing / Physical Sciences-Oncology Network (CSBC/PS-ON)",
+    "url": "https://github.com/SBCNY/PS-ON-Hackathon-2022", 
+    "summary": "Received Honorable Mention for progress on a challenging problem. Awarded $100 prize."
+  },
+  {
+    "title": "GATE 2015 – Electronics Engineering",
+    "date": "2015-03-01",
+    "awarder": "Indian Institute of Technology",
+    "url": "https://gate.iisc.ac.in/", 
+    "summary": "Achieved 98.57 percentile (Score: 611) in the Graduate Aptitude Test in Engineering (GATE) for Electronics Engineering."
+  },
+  {
+    "title": "B.Tech Graduation with Honours",
+    "date": "2015-06-30",
+    "awarder": "Kamla Nehru Institute of Technology",
+    "url": "http://knit.ac.in/",
+    "summary": "Graduated with 82.24% and 1st Division with Honours."
+  },
+  {
+    "title": "Undergraduate Scholarship",
+    "date": "2011-08-01",
+    "awarder": "Government of Uttar Pradesh, India",
+    "url": "",
+    "summary": "Awarded INR 40,000 annually for four years based on competitive entrance exam rank (2011–2015)."
+  }
+],
+  "contributions": [
+  {
+    "name": "Board Member",
+    "organization": "Cytodata Society",
+    "date": "2023-01-01"
+  },
+  {
+    "name": "Reviewer",
+    "organization": "2nd Workshop on Generative AI and Biology, ICML 2025",
+    "date": "2025-07-01"
+  },
+  {
+    "name": "Reviewer",
+    "organization": "NeurIPS 2024 Workshop on AI for New Drug Modalities",
+    "date": "2024-12-01"
+  },
+  {
+    "name": "Reviewer",
+    "organization": "Women in Machine Learning (WiML) Workshop at NeurIPS 2024",
+    "date": "2024-12-01"
+  },
+  {
+    "name": "Reviewer",
+    "organization": "Women in Bioinformatics and Data Science, LA Conference",
+    "date": "2022-07-01"
+  }
+],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  {
+    "name": "Morphological profiling data resource enables prediction of chemical compound properties",
+    "publisher": "iScience",
+    "releaseDate": "2025-05-01",
+    "url": "https://doi.org/10.1016/j.isci.2025.112445",
+    "summary": "Wolff, Christopher, et al. A large-scale image-based profiling resource enabling accurate prediction of compound properties."
+  },
+  {
+    "name": "Morphological Profiling Dataset of EU-OPENSCREEN Bioactive Compounds Over Multiple Imaging Sites and Cell Lines",
+    "publisher": "bioRxiv",
+    "releaseDate": "2024-08-27",
+    "url": "https://doi.org/10.1101/2024.08.27.609964",
+    "summary": "Wolff, Christopher, et al. A preprint describing an extensive morphological profiling dataset across imaging centers and cell lines."
+  },
+  {
+    "name": "Addressing persistent challenges in digital image analysis of cancerous tissues",
+    "publisher": "bioRxiv",
+    "releaseDate": "2023-07-21",
+    "url": "https://doi.org/10.1101/2023.07.21.548450",
+    "summary": "Prabhakaran et al. & Participants of the Cell Imaging Hackathon 2022. Collaborative solutions to digital pathology image analysis bottlenecks."
+  },
+  {
+    "name": "Robust principal component analysis‐based prediction of protein‐protein interaction hot spots",
+    "publisher": "Proteins: Structure, Function, and Bioinformatics",
+    "releaseDate": "2021-06-01",
+    "url": "https://doi.org/10.1002/prot.26047",
+    "summary": "Sitani et al. Methodology for identifying protein-protein interaction hotspots using robust PCA approaches."
+  },
+  {
+    "name": "Online single and multiple analysis dictionary learning-based approach for visual object tracking",
+    "publisher": "Journal of Electronic Imaging",
+    "releaseDate": "2019-01-01",
+    "url": "https://doi.org/10.1117/1.JEI.28.1.013004",
+    "summary": "Sitani et al. Development of a dictionary learning approach for efficient object tracking in videos."
+  }
+]
+],
+  "hackathons": [
+  {
+    "summary": "I actively engage in hackathons in the fields of AI/ML for bio-image analysis, drug discovery, and computational biomedicine. This engagement helps me stay connected with the latest in the field, constantly working on new and challenging problems, and networking with like-minded individuals. With a strong background in electronics and communications engineering, I bring a unique perspective to computational biology, constantly seeking innovative solutions to complex problems."
+  },
+  {
+    "name": "BioHackathon Germany 2023",
+    "organization": "ELIXIR-Germany and Denbi",
+    "location": "Germany",
+    "date": "2023-11",
+    "summary": "Contributed to SpaceHack, a community benchmarking effort in spatially resolved transcriptomics. Explored spatial transcriptomics tools and evaluated their performance on diverse tissue datasets."
+  },
+  {
+    "name": "Cytodata 2023 Hackathon",
+    "location": "University of Helsinki",
+    "date": "2023-09",
+    "summary": "Worked on renal cancer multiplexed imaging data (80GB). Developed cancer aggressiveness prediction models and explored marker relevance by tumor location. Won the hackathon with a team of 4."
+  },
+  {
+    "name": "Her Hackathon 2023",
+    "organization": "Beiersdorf",
+    "date": "2023-06",
+    "summary": "Developed 'Linda', an AI wellness specialist for skin comfort during menstrual cycles, using Skinly dataset and hormonal change studies. Built in a team of 5."
+  },
+  {
+    "name": "Image Analysis Hackathon 2022",
+    "organization": "CSBC/PS-ON",
+    "date": "2022-10",
+    "summary": "Worked on automated artefact removal using GANs and inpainting for colorectal cancer images. Received Honorable Mention. Supervised by Dr. Clarence Yapp."
+  },
+  {
+    "name": "Her Hackathon 2022",
+    "organization": "Merck Group",
+    "date": "2022-06",
+    "summary": "Built 'Tree of Life', a web app linking patients to clinical trials and encouraging diversity via a diversity index and network-based HCP mapping."
+  },
+  {
+    "name": "Juelich Data Challenges Hackathon 2021",
+    "organization": "Forschungszentrum Juelich",
+    "date": "2021-10",
+    "summary": "Used graph-based ML to predict gender from fMRI connectivity across 436 brain parcels using resting-state data. Supervised by Dr. Susanne Weis."
+  }
+],
+
   "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  {
+    "name": "AI/ML & Data Science",
+    "level": "Advanced",
+    "icon": "fa-solid fa-brain",
+    "keywords": [
+      "Machine Learning",
+      "Deep Learning",
+      "XGBoost",
+      "TabNet",
+      "1D/2D CNNs",
+      "SHAP",
+      "scikit-learn",
+      "PyTorch",
+      "PyTorch Lightning"
+    ]
+  },
+  {
+    "name": "Computational Biology",
+    "level": "Advanced",
+    "icon": "fa-solid fa-dna",
+    "keywords": [
+      "Bioimage Analysis",
+      "Spatial Transcriptomics",
+      "Morphological Profiling",
+      "Gene Expression Analysis",
+      "Multi-omics Integration",
+      "Cell Clustering (FlowSOM, CytoML)"
+    ]
+  },
+  {
+    "name": "Programming & Tools",
+    "level": "Advanced",
+    "icon": "fa-solid fa-code",
+    "keywords": [
+      "Python",
+      "R",
+      "Git",
+      "Jupyter",
+      "VS Code",
+      "GitHub Actions",
+      "Docker"
+    ]
+  },
+  {
+    "name": "Signal & Image Processing",
+    "level": "Advanced",
+    "icon": "fa-solid fa-wave-square",
+    "keywords": [
+      "Fourier Transforms",
+      "Dictionary Learning",
+      "Object Tracking",
+      "fMRI Analysis",
+      "Microscopy Imaging",
+      "MATLAB"
+    ]
+  },
+  {
+    "name": "Communication & Teaching",
+    "level": "Proficient",
+    "icon": "fa-solid fa-chalkboard-user",
+    "keywords": [
+      "Scientific Writing",
+      "Hackathon Mentorship",
+      "Python Teaching",
+      "Workshop Organizing",
+      "Presentation Skills"
+    ]
+  }
+],
+  
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -162,31 +341,48 @@
     }
   ],
   "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  {
+    "name": "Computational Biomedicine",
+    "icon": "fa-solid fa-dna",
+    "keywords": [
+      "Immune Profiling",
+      "Multi-omics Integration",
+      "Disease Prediction",
+      "Biomarker Discovery"
+    ]
+  },
+  {
+    "name": "AI/ML for Health",
+    "icon": "fa-solid fa-brain",
+    "keywords": [
+      "Explainable AI",
+      "Model Generalization",
+      "Fairness in Health AI",
+      "Data Fusion"
+    ]
+  },
+  {
+    "name": "Bioimage Analysis",
+    "icon": "fa-solid fa-image",
+    "keywords": [
+      "Tissue Imaging",
+      "Spatial Transcriptomics",
+      "Morphological Profiling",
+      "Microscopy Data"
+    ]
+  },
+  {
+    "name": "Science Communication & Education",
+    "icon": "fa-solid fa-chalkboard-teacher",
+    "keywords": [
+      "Teaching Python",
+      "Community Engagement",
+      "Mentoring Women in Tech",
+      "Hackathon Participation"
+    ]
+  }
+]
+
   "projects": [
     {
       "name": "Quantum Computing",
