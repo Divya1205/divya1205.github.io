@@ -3,20 +3,29 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Divya
+middle_name: ""
+last_name: Sitani
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  I’m always happy to connect. Feel free to reach out via email for collaborations, opportunities, or questions about my work.
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+# footer_text: >
+#   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+#   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+# keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal academic website of Divya Sitani. I work on machine learning for systems immunology, data fusion, and privacy-preserving modeling in biomedical research.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  © 2025 Divya Sitani. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: divya sitani, immunology, machine learning, data fusion, swarm learning, academic website, portfolio
+lang: en
+icon: 📊 # you can keep ⚛️ or use something like 📊, 🧬, 🧠, or 🎓
+
 
 #url: https://alshedivat.github.io # the base hostname & protocol for your site
 url: https://divya1205.github.io
