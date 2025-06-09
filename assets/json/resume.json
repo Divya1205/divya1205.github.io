@@ -383,14 +383,57 @@
   }
 ]
 
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+ "projects": [
+  {
+    "name": "COVIM/ImmunoHub",
+    "summary": "Led the COVIM Common Metadata Model and ImmunoHub platform for metadata integration across COVID-19 immunology studies in Germany.",
+    "highlights": [
+      "Built LaminDB-based ImmunoHub metadata repository.",
+      "Aligned with biomedical standards (EFO, OMOP, GHGA).",
+      "Implemented ingestion pipelines using ICD-10 and ATC vocabularies.",
+      "Led schema governance using Git and lnschema-covim.",
+      "Ensured FAIR compliance and secure site-specific deployments."
+    ],
+    "startDate": "2023-01-01",
+    "url": "https://github.com/your-covim-repo" 
+  },
+  {
+    "name": "CMI-PB Multimodal ML",
+    "summary": "Designed and led a multimodal ML pipeline to predict vaccine priming using cross-cohort immune data fusion from CMI-PB challenge datasets.",
+    "highlights": [
+      "SHAP-based fusion of gene expression, antibody, cytokine, and cell data.",
+      "Cross-cohort generalization with multiple classifiers (RF, SVM, XGBoost, etc.).",
+      "Key features: IgG4 (FHA/PT), cytokines (CCL8, IL-1α, CXCL9).",
+      "Invited talk at La Jolla Institute, ECCB 2025 paper accepted.",
+      "Manuscript in preparation consolidating findings and proposing validation."
+    ],
+    "startDate": "2024-01-01",
+    "url": "https://github.com/your-cmi-pb-repo"
+  },
+  {
+    "name": "PANTA-COVIM WP6 T Cell Classification",
+    "summary": "Led development of ML models for SARS-CoV-2 antigen-reactive T cell detection across sites using flow cytometry data.",
+    "highlights": [
+      "XGBoost cell-level classifier with donor-level score aggregation.",
+      "Cross-site robustness, preprocessing of non-T cells, cluster annotation cleanup.",
+      "Benchmarked predictions against manual gating.",
+      "Developed prototype neural pooling model for donor classification."
+    ],
+    "startDate": "2024-01-01",
+    "url": "https://github.com/your-panta-repo"
+  },
+  {
+    "name": "PhD Research – Protein-Protein Interaction Hotspots",
+    "summary": "Developed ML pipelines for hotspot residue prediction using RPCA and XGBoost, applied to structure and sequence-based PPI features.",
+    "highlights": [
+      "RPCA for noise reduction and dimensionality reduction.",
+      "Applied to independent test sets for generalization.",
+      "Presented at AdvCompBio 2019 (oral) and Summer School Leuven 2018 (poster).",
+      "Attended deep learning and bioinformatics workshops (BSC, LRZ, CNC, DeepLearn)."
+    ],
+    "startDate": "2017-01-01",
+    "endDate": "2023-01-01",
+    "url": "https://github.com/your-phd-repo"
+  }
+]
 }
